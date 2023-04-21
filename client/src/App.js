@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Waiting players:</h1>
+        <h1>Waiting all players to join:</h1>
         <ul>
         {Object.keys(waitingPlayers).map(key => (
       <div key={key}>
